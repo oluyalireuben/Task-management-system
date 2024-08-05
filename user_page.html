@@ -22,16 +22,17 @@
     <label for="taskDescription">Task Description:</label>
     <input type="text" id="taskDescription" name="description" required>
 
-    <label for="dueDate">Due Date:</label>
-    <input type="date" id="dueDate" name="due_date">
+    <label for="taskDueDate">Due Date:</label>
+    <input type="date" id="taskDueDate" name="due_date" required>
+
+    <label for="taskCategory">Category:</label>
+    <select id="taskCategory" name="category" required>
+      <!-- Dynamic category options will be populated here -->
+    </select>
 
     <button type="submit">Add Task</button>
   </form>
-
-  <section id="taskListSection">
-    <h2>My Tasks</h2>
-    <ul id="taskList"></ul>
-  </section>
+  <ul id="taskList"></ul>
 </main>
 <script src="js/user.js"></script>
 </body>

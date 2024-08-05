@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Admin Dashboard</title>
+    <title> Admin Dashboard</title>
 </head>
 <body>
 <header>
@@ -15,9 +15,14 @@
     </nav>
 </header>
 <main>
-    <h1>Admin Dashboard</h1>
+    <h1>Welcome to Admin Dashboard</h1>
 
-    <!-- Manage Users Section -->
+    <section id="search">
+        <h2>Search</h2>
+        <input type="text" id="searchInput" placeholder="Search for users or tasks">
+        <button onclick="search()">Search</button>
+    </section>
+
     <section id="users">
         <h2>Manage Users</h2>
         <table>
@@ -30,12 +35,11 @@
             </tr>
             </thead>
             <tbody id="userList">
-            <!-- Dynamic user data will be inserted here -->
+            <!-- Dynamic user data -->
             </tbody>
         </table>
     </section>
 
-    <!-- Manage Tasks Section -->
     <section id="tasks">
         <h2>Manage Tasks</h2>
         <table>
@@ -49,12 +53,11 @@
             </tr>
             </thead>
             <tbody id="taskList">
-            <!-- Dynamic task data will be inserted here -->
+            <!-- Dynamic task data -->
             </tbody>
         </table>
     </section>
 
-    <!-- Manage Categories Section -->
     <section id="categories">
         <h2>Manage Categories</h2>
         <form id="categoryForm">
@@ -62,8 +65,22 @@
             <button type="submit">Add Category</button>
         </form>
         <ul id="categoryList">
-            <!-- Dynamic category data will be inserted here -->
+            <!-- Dynamic category data -->
         </ul>
+    </section>
+
+    <section id="reports">
+        <h2>Generate Reports</h2>
+        <button onclick="generateReports()">Generate Reports</button>
+        <div id="reportContent"></div>
+    </section>
+
+    <section id="notifications">
+        <h2>Send Notifications</h2>
+        <form id="notificationForm">
+            <input type="text" id="notificationMessage" name="notificationMessage" placeholder="Notification Message" required>
+            <button type="submit">Send Notification</button>
+        </form>
     </section>
 </main>
 <script src="js/admin.js"></script>
