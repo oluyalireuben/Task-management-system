@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+<header>
+    <img src="assets/logo.png" alt="Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="php/logout.php">Logout</a>
+    </nav>
+</header>
+<main>
+    <h1>Admin Dashboard</h1>
+
+    <!-- Manage Users Section -->
+    <section id="users">
+        <h2>Manage Users</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="userList">
+            <!-- Dynamic user data will be inserted here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Manage Tasks Section -->
+    <section id="tasks">
+        <h2>Manage Tasks</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Due Date</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="taskList">
+            <!-- Dynamic task data will be inserted here -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Manage Categories Section -->
+    <section id="categories">
+        <h2>Manage Categories</h2>
+        <form id="categoryForm">
+            <input type="text" id="categoryName" name="categoryName" placeholder="New Category" required>
+            <button type="submit">Add Category</button>
+        </form>
+        <ul id="categoryList">
+            <!-- Dynamic category data will be inserted here -->
+        </ul>
+    </section>
+</main>
+<script src="js/admin.js"></script>
+</body>
+</html>
