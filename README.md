@@ -27,7 +27,7 @@ A web application to efficiently manage tasks with user authentication, role-bas
 
    ```bash
    git clone https://github.com/oluyalireuben/Task-management-system.git
-
+```
 ## Usage
 1. Access the application:
 - Open your web browser and go to http://localhost/projects/Task_Management_App/
