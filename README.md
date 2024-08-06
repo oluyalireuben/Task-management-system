@@ -23,14 +23,14 @@ A web application to efficiently manage tasks with user authentication, role-bas
 
 ## Installation
 
-1. **Clone the repository:**
+**Clone the repository:**
 
    ```bash
    git clone https://github.com/oluyalireuben/Task-management-system.git
 
 ## Usage
 1. Access the application:
-- Open your web browser and go to http://localhost/Task_Management_App.
+- Open your web browser and go to http://localhost/projects/Task_Management_App/
 
 2. Register a new user:
 - Navigate to the Register page and create a new account.
