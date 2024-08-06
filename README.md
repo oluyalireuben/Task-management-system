@@ -30,17 +30,16 @@ A web application to efficiently manage tasks with user authentication, role-bas
 
 ## Usage
 1. Access the application:
+- Open your web browser and go to http://localhost/Task_Management_App.
 
-Open your web browser and go to http://localhost/Task_Management_App.
-Register a new user:
+2. Register a new user:
+- Navigate to the Register page and create a new account.
+  
+3. Login:
+ - Use the credentials you registered with to log in.
 
-Navigate to the Register page and create a new account.
-Login:
+4. User Dashboard:
+- As a normal user, you can create, edit, and delete tasks.
 
-Use the credentials you registered with to log in.
-User Dashboard:
-
-As a normal user, you can create, edit, and delete tasks.
-Admin Dashboard:
-
-As an admin, you have additional privileges to manage users, tasks, categories, generate reports, and send notifications.
+5. Admin Dashboard:
+- As an admin, you have additional privileges to manage users, tasks, categories, generate reports, and send notifications.
