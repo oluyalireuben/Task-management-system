@@ -27,3 +27,20 @@ A web application to efficiently manage tasks with user authentication, role-bas
 
    ```bash
    git clone https://github.com/oluyalireuben/Task-management-system.git
+
+## Usage
+1. Access the application:
+
+Open your web browser and go to http://localhost/Task_Management_App.
+Register a new user:
+
+Navigate to the Register page and create a new account.
+Login:
+
+Use the credentials you registered with to log in.
+User Dashboard:
+
+As a normal user, you can create, edit, and delete tasks.
+Admin Dashboard:
+
+As an admin, you have additional privileges to manage users, tasks, categories, generate reports, and send notifications.
