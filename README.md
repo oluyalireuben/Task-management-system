@@ -23,7 +23,7 @@ A web application to efficiently manage tasks with user authentication, role-bas
 
 ## Installation
 
-**Clone the repository:**
+**Clone the repository then import the database from the zip file:**
 
    ```bash
    git clone https://github.com/oluyalireuben/Task-management-system.git
