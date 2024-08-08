@@ -16,7 +16,6 @@ A web application to efficiently manage tasks with user authentication, role-bas
   - Send Notifications
 
 ## Technologies
-
 - HTML, CSS, JavaScript
 - PHP
 - MySQL
